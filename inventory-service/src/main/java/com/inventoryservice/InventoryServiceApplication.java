@@ -16,7 +16,7 @@ public class InventoryServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(InventoryServiceApplication.class, args);
-//		System.out.println("Inventory Service Running");
+		System.out.println("Inventory Service Running");
 	}
 		@Bean
         public CommandLineRunner LoadData(InventoryRepository inventoryRepository){
